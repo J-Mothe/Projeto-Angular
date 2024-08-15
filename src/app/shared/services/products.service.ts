@@ -10,7 +10,7 @@ export class ProductsService {
   httpClient = inject(HttpClient);
 
   getAll() {
-  return this.httpClient.get<Product[]>('/api/products');
-}
+    return this.httpClient.get<Product[]>('/api/products');
+  }
 
 }
