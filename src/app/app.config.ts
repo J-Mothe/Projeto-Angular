@@ -10,15 +10,14 @@ import {
   MatSnackBarConfig,
 } from '@angular/material/snack-bar';
 
-
-const SNACK_BAR_CONFIG: ValueProvider   = {
-    provide: MAT_SNACK_BAR_DEFAULT_OPTIONS,
-    useValue: {
-      duration: 3000,
-      horizontalPosition: 'right',
-      verticalPosition: 'top',
-    } as MatSnackBarConfig,
-  }
+const SNACK_BAR_CONFIG: ValueProvider = {
+  provide: MAT_SNACK_BAR_DEFAULT_OPTIONS,
+  useValue: {
+    duration: 3000,
+    horizontalPosition: 'right',
+    verticalPosition: 'top',
+  } as MatSnackBarConfig,
+};
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -26,6 +25,6 @@ export const appConfig: ApplicationConfig = {
     provideClientHydration(),
     provideAnimationsAsync(),
     provideHttpClient(),
-    SNACK_BAR_CONFIG
+    SNACK_BAR_CONFIG,
   ],
 };
