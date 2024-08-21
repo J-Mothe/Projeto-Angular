@@ -1,20 +1,8 @@
 {
   "products": [
     {
-      "title": "Produto de Teste Editado",
-      "id": "1"
-    },
-    {
-      "id": "9804",
-      "title": "Marcelo"
-    },
-    {
-      "id": "5ac2",
-      "title": "Sapatos"
-    },
-    {
-      "id": "7629",
-      "title": "Blusas"
+      "title": "Blusa",
+      "id": "7629"
     },
     {
       "id": "d334",
