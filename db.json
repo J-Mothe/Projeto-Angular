@@ -1,14 +1,6 @@
 {
   "products": [
     {
-      "title": "Blusa",
-      "id": "7629"
-    },
-    {
-      "id": "d334",
-      "title": "Pulseira"
-    },
-    {
       "id": "97ce",
       "title": "Boné"
     }
